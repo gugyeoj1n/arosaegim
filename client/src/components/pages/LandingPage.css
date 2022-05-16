@@ -1,0 +1,72 @@
+.todoOpenButton {
+	width: 160px;
+	height: 60px;
+	text-align: center;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #DBADFF;
+	color: white;
+	font-size: 17px;
+	transition: 0.125s all ease-in;
+	cursor: pointer;
+	align-items: center;
+	box-shadow: 0px 3px 5px 2px #D5D5D5;
+}
+
+.todoOpenButton:hover {
+	background: #E8CCFF;
+}
+
+.todoOpenButton:active {
+	background: #CD8CFF;
+}
+
+
+
+/* -------------------------------------------- */
+
+
+
+.title {
+	padding-top: 180px;
+	padding-bottom: 20px;
+	font-size: 60px;
+	font-weight: 700;
+	color: #525252;
+}
+
+
+.mean {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #545454;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+
+.desc {
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	margin-top: 30px;
+	margin-bottom: 70px;
+	color: #7E7E7E;
+}
+
+
+/* -------------------------------------------- */
+
+
+.all > * {
+	font-family: 'NanumSquare';
+}
+
+.all {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
